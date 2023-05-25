@@ -1,0 +1,78 @@
+.product-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 30%;
+  }
+
+  .product-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .product-image img {
+    width: 60%;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+  }
+  
+  .product-name a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .product-description {
+    margin-top: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cart-button{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .product-name a, .product-price{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .product-tile{
+      width: 50%;
+    }
+  }
+  .my-button {
+    display: inline-block;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: #005f75;
+  }
+  
